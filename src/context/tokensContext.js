@@ -1,6 +1,5 @@
-import { createContext, useContext, useEffect, useState } from 'react'
+import { createContext, useContext, useEffect, useState, useMemo } from 'react'
 import axios from 'axios'
-import { useMemo } from 'react/cjs/react.development'
 import { getTokenPrices } from '../graphql/queries'
 
 const Context = createContext({})

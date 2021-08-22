@@ -1,6 +1,5 @@
 import axios from 'axios'
-import { useState, useEffect } from 'react'
-import { useMemo } from 'react/cjs/react.development'
+import { useState, useEffect, useMemo } from 'react'
 
 export default function useTokenQuotes(tokens) {
   const [quotes, setQuotes] = useState(null)
